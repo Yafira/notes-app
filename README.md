@@ -12,10 +12,10 @@
 
 - Install and learn to use npm packages such as:
 
-        react-split:  A simple yet powerful and extensible React Markdown Editor that aims to have feature parity with the Github Markdown editor.
+        react-split: A simple yet powerful and extensible React Markdown Editor that aims to have feature parity with the Github Markdown editor.
 
         nanoid: A tiny, secure, URL-friendly, unique string ID generator for JavaScript.
 
         react-mde:  Which renders React components within the markdown and markdown as React components
 
-        react-showdown: a Javascript Markdown to HTML converter
+        react-showdown: A Javascript Markdown to HTML converter
