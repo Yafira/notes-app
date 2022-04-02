@@ -1,4 +1,4 @@
-# Markdown Notes App
+# Markie, A Markdown Notes App
 
 ### The use of Markdown allows one to spend less time on formatting the text and therefore create rich text content using only the Markdown syntax.
 
