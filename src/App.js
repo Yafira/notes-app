@@ -14,7 +14,7 @@ export default function App() {
 	)
 
 	// eslint-disable-next-line
-	React.useEffect(() => {
+	useEffect(() => {
 		localStorage.setItem('notes', JSON.stringify(notes))
 	}, [notes])
 
