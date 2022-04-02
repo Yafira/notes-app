@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react'
 import Sidebar from './components/Sidebar'
 import Editor from './components/Editor'
-import { data } from './data'
 import Split from 'react-split'
 import { nanoid } from 'nanoid'
 import './style.css'
@@ -21,7 +20,7 @@ export default function App() {
 	function createNewNote() {
 		const newNote = {
 			id: nanoid(),
-			body: "# Type your markdown note's title here",
+			body: "☆ Type your markdown note's title here",
 		}
 		setNotes((prevNotes) => [newNote, ...prevNotes])
 		setCurrentNoteId(newNote.id)

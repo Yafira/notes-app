@@ -5,7 +5,8 @@
 body {
 	margin: 0;
 	padding: 0;
-	font-family: 'Karla', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	background-color: rgb(253, 254, 242);
 }
 
 button:focus {
@@ -20,7 +21,7 @@ button:focus {
 
 .pane {
 	overflow-y: auto;
-	/* padding: 10px; */
+	padding: 10px;
 }
 
 .sidebar {
@@ -29,7 +30,7 @@ button:focus {
 }
 
 .sidebar--note {
-	/* display: flex; */
+	display: flex;
 }
 
 .sidebar--header {
@@ -44,19 +45,23 @@ button:focus {
 
 .new-note {
 	cursor: pointer;
-	background-color: #4a4e74;
+	background-color: #aa7ae1;
 	border: none;
-	color: white;
+	color: whitesmoke;
 	border-radius: 3px;
 	height: 30px;
 	width: 30px;
 }
 
+.new-note:hover {
+	background-color: #c49cf3;
+}
+
 .first-note {
 	cursor: pointer;
-	background-color: #4a4e74;
+	background-color: #aa7ae1;
 	border: none;
-	color: white;
+	color: whitesmoke;
 	border-radius: 3px;
 	padding: 1rem;
 }
@@ -92,27 +97,26 @@ button:focus {
 
 .text-snippet {
 	padding-inline: 5px;
-	font-size: 0.8rem;
+	font-size: 1rem;
 	font-weight: 400;
 	line-height: 1.2rem;
-	color: #4a4e74;
+	color: #666875;
 	white-space: nowrap;
 	overflow: hidden;
 	text-overflow: ellipsis;
 }
 
 .selected-note {
-	background-color: #4a4e74;
+	background-color: #88edcb;
 }
 
 .selected-note .text-snippet {
-	color: white;
+	color: rgb(0, 0, 0);
 	font-weight: 700;
 }
 
 .gutter {
 	background-color: #eee;
-
 	background-repeat: no-repeat;
 	background-position: 50%;
 }
@@ -136,7 +140,7 @@ button:focus {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	background-color: whitesmoke;
+	background-color: rgb(253, 254, 242);
 }
 
 .delete-btn {
