@@ -13,6 +13,7 @@ export default function App() {
 		(notes[0] && notes[0].id) || ''
 	)
 
+	// eslint-disable-next-line
 	React.useEffect(() => {
 		localStorage.setItem('notes', JSON.stringify(notes))
 	}, [notes])
