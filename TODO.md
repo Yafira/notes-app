@@ -2,5 +2,5 @@
 
 - [x] Sync notes with localStorage
 - [x] Add note summary titles
-- [ ] Move modified notes to the top of the list
-- [ ] Delete notes
+- [x] Move modified notes to the top of the list
+- [x] Delete notes
