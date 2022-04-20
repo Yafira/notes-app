@@ -19,3 +19,7 @@
         react-mde:  Which renders React components within the markdown and markdown as React components
 
         react-showdown: A Javascript Markdown to HTML converter
+
+---
+
+![gif](notes.gif)
